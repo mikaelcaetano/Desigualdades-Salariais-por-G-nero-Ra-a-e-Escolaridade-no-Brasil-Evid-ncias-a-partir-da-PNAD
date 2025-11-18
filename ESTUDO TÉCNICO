@@ -1,0 +1,92 @@
+II. ESTUDO TÉCNICO
+ Desigualdades de renda por gênero, raça e es olaridad no Brasil: resultados da PNAD Contínua
+ 2025/2
+ 1. Objetivo
+ Opresente estudo tem como finalidade estimar e comparar os rendimentos do trabalho segundo gênero,
+ cor/raça e escolaridade, com foco na identificação de desigualdades estruturais no mercado de trabalho
+ brasileiro.
+ 2. Fonte de Dados
+ Foram utilizados os microdados da PNAD Contínua Trimestral– 2º trimestre de 2025, disponibilizados
+ pelo IBGE e extraídos por meio da biblioteca pnadium.
+ A amostra foi filtrada para incluir apenas:
+ · indivíduos entre 18 e 64 anos;
+ · trabalhadores o upado (VD4002 = 1);
+ · comrendahabitual positiva (VD4008 > 0).
+ 3. Variáveis de Análise
+ · Rendahabitual (VD4008)– variável dependente.
+ · Sexo(V2007)–recodificado em Homem / Mulher.
+ · Raça/Cor(V2010)– categorias: Branco, Preto, Pardo, Amarelo, Indígena, Ignorado.
+ · Es olaridad (V3003A)– dez níveis de instrução formal.
+ · Faixaetária (V2009)– controle para idade produtiva.
+ Também foi criada a variável composta grupo = sexo × raça.
+ 4. Métodos
+ 4.1 Estatísticas descritivas
+ Foram calculadas médias salariais por:
+ ·
+ ·
+ ·
+ ·
+ sexo,
+ raça,
+ escolaridade,
+ combinações de sexo × raça.
+ 4.2 Visualizações
+ Foram estimados:
+ ·
+ ·
+ ·
+ gráficos de barras comparativos;
+ heatmap de média salarial por escolaridade × sexo × raça;
+ boxplots e violinos para análise da distribuição.
+ 4.3 Medidas de desigualdade
+ Calcularam-se valores do índice de Gini por:
+ ·
+ ·
+ ·
+ sexo,
+ raça,
+ escolaridade.
+ 4.4 Prêmi de esc laridad
+ Estimou-se a variação percentual da renda média entre níveis educacionais consecutivos.
+5. Resultados
+ 5.1 Diferenças p sex
+ Observou-se que homens apresentam rendimentos superiores às mulheres em todos os níveis de
+ escolaridade.
+ 5.2 Diferenças p raça
+ Pessoas brancas possuem rendimentos médios mais altos; pessoas pretas e pardas registram valores
+ substancialmente menores.
+ 5.3 Intersecci nalidad sex × raça
+ A média salarial mais alta foi observada entre homens bran o, enquanto o menor rendimento médio foi
+ encontrado para mulheres pretas e pardas.
+ 5.4 Esc laridad
+ A renda cresce monotonicamente com o nível educacional, mas os diferenciais entre grupos persistem,
+ indicando que a elevação da escolaridade não elimina desigualdades raciais e de gênero.
+ 5.5 Desigualdade interna
+ Oíndice de Gini sugere maior concentração de renda entre homens e entre pessoas brancas, enquanto
+ mulheres pretas e pardas apresentam menor desigualdade interna devido à concentração em
+ rendimentos baixos.
+ 5.6 Prêmi da esc laridad
+ Oprêmio da escolaridade é maior para pessoas brancas e homens. Mulheres e pessoas negras obtêm
+ retornos proporcionalmente menores para o mesmo investimento educacional.
+ 6. Con lusõe
+ Oestudo evidencia:
+ ·
+ ·
+ ·
+ ·
+ desigualdades salariais persistentes por gênero e raça;
+ efeitos interseccionais significativos, com grupos duplamente vulnerabilizados (mulheres negras
+ e pardas);
+ um prêmio educacional desigual entre grupos;
+ manutenção de barreiras estruturais mesmo após controle por escolaridade e idade.
+ Os resultados indicam a necessidade de políticas que combinem:
+ 1.
+ 2.
+ 3.
+ 4.
+ ampliação educacional,
+ regulação trabalhista com foco em equidade salarial,
+ monitoramento de práticas discriminatórias,
+ ações de inclusão no mercado de trabalho.
+ A persistência dos diferenciais sugere que a desigualdade salarial é estrutural e não será superada
+ apenas com expansão educacional ou crescimento econômico.
